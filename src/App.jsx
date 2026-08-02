@@ -11,7 +11,7 @@ function App() {
      {
     title: "Modern Website UI",
     description: "A sleek responsive web design project",
-    image: "https://s3-alpha.figma.com/hub/file/6235856616/2dcfa04b-0f3f-43e3-bb68-3a9dd899f7c3-cover.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSte3zHdiDFckzqeeLmi1MCM6610236Y5-Eh-yjK6cT8Q&s=10"
   },
   {
     title: "Branding Portfolio",
@@ -52,7 +52,7 @@ function App() {
       title: "Modern Website UI",
       description: "A sleek responsive web design project",
       image:
-        "https://s3-alpha.figma.com/hub/file/6235856616/2dcfa04b-0f3f-43e3-bb68-3a9dd899f7c3-cover.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfxk4agyXsmQZT7hEzcBu2Wp8w6r1cdWa0BtsbOpH8bQ&sp",
     },
     {
       title: "Branding Portfolio",
