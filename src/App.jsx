@@ -8,6 +8,46 @@ import "./App.css";
 
 function App() {
   const [projects, setProjects] = useState([
+     {
+    title: "Modern Website UI",
+    description: "A sleek responsive web design project",
+    image: "https://s3-alpha.figma.com/hub/file/6235856616/2dcfa04b-0f3f-43e3-bb68-3a9dd899f7c3-cover.png"
+  },
+  {
+    title: "Branding Portfolio",
+    description: "Creative branding and identity design",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU_vXvfTk-B1Kk0nUOUtbG6NdKp2f56Tg1qMVEvL81Ig&s=10"
+  },
+  {
+    title: "Mobile App Concept",
+    description: "Prototype for a mobile app interface",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-T-41L-pQLjHPXGaICH5RdmGDuGM89sPPinwaWb2PQq-3cpu_l39WPnXa&s=10"
+  },
+  {
+    title: "E‑Commerce Storefront",
+    description: "React + Stripe integration for online shopping",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-Rl1wmm3uvLaHjhstSxlvoi_zVKYWRat6xd1_LA0Eg&s=10"
+  },
+  {
+    title: "Travel Blog",
+    description: "Responsive blog with map integration",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+  },
+  {
+    title: "Music Player App",
+    description: "Interactive audio player with playlists",
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4"
+  },
+  {
+    title: "Recipe Finder",
+    description: "Search and filter recipes with API integration",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+  },
+  {
+    title: "Fitness Tracker",
+    description: "Track workouts and progress with charts",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-fpQpxCM4rqcDjTiXbG1GcYrSN9deYH6reoifJBvCA&s=10h"
+  },
     {
       title: "Modern Website UI",
       description: "A sleek responsive web design project",
