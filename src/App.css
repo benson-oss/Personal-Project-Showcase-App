@@ -15,6 +15,21 @@
   grid-template-columns: repeat(3, 1fr); /* always 2 equal columns */
   gap: 1rem;
 }
+/* Light mode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Optional: style project cards differently */
+
+
 
 
 /* On smaller screens (phones), switch to 1 card per row */
@@ -26,6 +41,7 @@
 
 
 .project-card {
+    background-color: inherit;
   width: 100%;                /* card fills its grid cell */
   box-sizing: border-box;      /* include padding/border in width */
   border: 1px solid #ccc;
