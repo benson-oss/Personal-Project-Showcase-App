@@ -60,10 +60,10 @@ body.dark-mode {
 }
 
 .project-image {
+  border-radius: 50%;          /* circular image */
   width: 100%;                 /* image fills card width */
   height: 200px;               /* consistent height */
   object-fit: cover;           /* crop/scale nicely */
-  border-radius: 6px;
   margin-bottom: 0.8rem;
 }
 
