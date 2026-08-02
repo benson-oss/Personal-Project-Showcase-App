@@ -28,7 +28,12 @@ body.dark-mode {
 }
 
 /* Optional: style project cards differently */
-
+.project-card {
+  background-color: inherit;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
 
 
 
@@ -41,7 +46,6 @@ body.dark-mode {
 
 
 .project-card {
-    background-color: inherit;
   width: 100%;                /* card fills its grid cell */
   box-sizing: border-box;      /* include padding/border in width */
   border: 1px solid #ccc;
