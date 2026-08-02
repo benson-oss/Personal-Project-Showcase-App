@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"homepage": "https://benson-oss.github.io/Personal-Project-Showcase-App"  "scripts": {
+  "homepage": "https://benson-oss.github.io/Personal-Project-Showcase-App",
+  "scripts": {
     "dev": "vite",
     "start": "vite",
     "build": "vite build",

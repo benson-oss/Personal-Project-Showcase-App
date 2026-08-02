@@ -12,7 +12,7 @@
 
 .project-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* always 2 equal columns */
+  grid-template-columns: repeat(3, 1fr); /* always 2 equal columns */
   gap: 1rem;
 }
 
