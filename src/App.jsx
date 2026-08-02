@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import ProjectForm from "./Components/ProjectForm.jsx";
 import SearchBar from "./Components/SearchBar.jsx";
 import ProjectList from "./Components/ProjectList.jsx";
+import Footer from "./Components/Footer.jsx";
 import "./App.css";
 
 function App() {
@@ -66,6 +67,13 @@ function App() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-T-41L-pQLjHPXGaICH5RdmGDuGM89sPPinwaWb2PQq-3cpu_l39WPnXa&s=10",
     },
+ {
+    title: "AI Travel Planner",
+    description: "A smart web app that helps users plan trips by suggesting destinations, accommodations, and activities based on preferences.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqvdZB17ZBDwDHDXd_bmnCfwZ_tGt4R3HkAne-CCu58A&s"
+  }
+
+
   ]);
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -96,15 +104,28 @@ function App() {
 
   return (
     <div className="app">
+      <div className="header">
       <button onClick={() => setIsDarkMode(!isDarkMode)}>
         {isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
       </button>
       <h1>Personal Project Showcase App</h1>
+      <p>This app isn’t just a portfolio — 
+        it’s a living showcase that adapts to your 
+        evolving projects. Whether you’re a designer, 
+        developer, or creative professional,
+        it provides a polished stage to present your work with clarity and style.
+        It demonstrates technical skill, attention to detail, and a strong sense of user experience
+        — qualities that clients value highly.</p>
+        </div>
       <ProjectForm addProject={addProject} />
+      <p>Quickly filter creative projects.</p>
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <ProjectList projects={filteredProjects} deleteProject={deleteProject} />
+       <Footer />
     </div>
+     
   );
+ 
 }
 
 export default App;
