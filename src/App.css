@@ -16,12 +16,14 @@
   gap: 1rem;
 }
 
+
 /* On smaller screens (phones), switch to 1 card per row */
 @media (max-width: 600px) {
   .project-list {
     grid-template-columns: 1fr; /* single column */
   }
 }
+
 
 .project-card {
   width: 100%;                /* card fills its grid cell */
