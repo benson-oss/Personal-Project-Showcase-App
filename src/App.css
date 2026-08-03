@@ -7,6 +7,7 @@
 }
 
 .header {
+  background-color: rgba(70, 98, 124, 0.367);
   text-align: center;
   margin-bottom: 2rem;
   border: #000000  1px solid;
@@ -20,18 +21,18 @@
 
 .project-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* always 2 equal columns */
+  grid-template-columns: repeat(4, 1fr); /* always 2 equal columns */
   gap: 1rem;
 }
 /* Light mode */
 body.light-mode {
-  background-color: #ffffff;
+  background-color: #eeeeef;
   color: #000000;
 }
 
 /* Dark mode */
 body.dark-mode {
-  background-color: #1e1e1e;
+  background-image: linear-gradient(to bottom, #0e1624, #070b14);
   color: #ffffff;
 }
 
@@ -41,7 +42,7 @@ body.dark-mode {
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: 8px;
-  color: black;
+  color: rgb(174, 173, 173);
 }
 
 
@@ -49,7 +50,7 @@ body.dark-mode {
 
 @media (max-width: 600px) {
   .project-list {
-    grid-template-columns: 1,1fr;
+    grid-template-columns:2, 1fr;
   }
 }
 
@@ -60,7 +61,7 @@ body.dark-mode {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1rem;
-  background: #fff;
+  background-image: linear-gradient(to bottom, #0f3037, #07151a);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
@@ -82,7 +83,7 @@ body.dark-mode {
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  background-color: #f9f9f9;
+   background-image: linear-gradient(to bottom, #0e2930, #08191d);
   box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
 }
 
@@ -113,8 +114,9 @@ body.dark-mode {
   background-color: #005fa3;
 }
 footer {
-  background: lightgray;
-  padding: 1rem;
+  color: #ffffff;
+ background-color: #0b2228;
+   padding: 1rem;
   text-align: center;
 }
 

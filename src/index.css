@@ -46,15 +46,15 @@
 }
 
 body {
-  background-color: rgb(162, 160, 160);
+background-color: color-mix(in srgb, #0b111e 90%, #00ffff 10%);
   color: black;
   margin: auto;
 }
 
 #root {
-  width: 1126px;
+  width: auto;
   max-width: 100%;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   border-inline: none;
   min-height: 100svh;
