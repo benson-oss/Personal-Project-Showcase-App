@@ -48,7 +48,7 @@
 body {
   background-color: rgb(162, 160, 160);
   color: black;
-  margin: 0;
+  margin: auto;
 }
 
 #root {
@@ -56,7 +56,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
+  border-inline: none;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
